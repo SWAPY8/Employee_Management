@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Leave API empty so you can add your endpoint later
 // Example: (id) => `http://127.0.0.1:8000/delete_emp/${id}`
-const getApiUrl = () => "https://employee-management-prdm.onrender.com/delete_emp/${e_id}";
+const getApiUrl = (id) => `https://employee-management-prdm.onrender.com/delete_emp/${id}`;
 
 function Delete() {
   const [e_id, setEId] = useState("");

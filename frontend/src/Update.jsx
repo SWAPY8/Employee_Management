@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Leave API empty so you can add your endpoint later
 // Example: (id) => `http://127.0.0.1:8000/edit_emp/${id}`
-const getApiUrl = () => "https://employee-management-prdm.onrender.com/edit_emp/${e_id}";
+const getApiUrl = (id) => `https://employee-management-prdm.onrender.com/edit_emp/${id}`;
 
 function Update() {
   const [e_id, setEId] = useState("");

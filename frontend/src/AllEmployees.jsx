@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // Leave API empty so you can add your endpoint later
 // Example: "http://127.0.0.1:8000/all_employee"
-const API_URL = "https://employee-management-prdm.onrender.com";
+const API_URL = "https://employee-management-prdm.onrender.com/all_employee";
 
 function AllEmployees() {
   const [employees, setEmployees] = useState([]);
